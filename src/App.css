@@ -3,9 +3,11 @@ body{
 }
 .App{
   background-color:#D8BFD8;
-  min-height: 500px;
+  height: 500px;
   width: 400px;
-  margin: 40px auto;
+  margin: 40px auto;  
+  overflow: auto;
+ 
 }
 
 #to-do-form input{
@@ -35,4 +37,23 @@ body{
   cursor: pointer;
   font-weight: bolder;
   color:#fff;
+}
+.lista-item{
+  color: #fff;
+  list-style: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  width: 390px;
+  /* background-color: blue; */
+  align-items: center;
+  margin: 4px 6px;
+}
+.delete{
+  height: 25px;
+  cursor: pointer;
+}
+
+.box-list{
+  display: flex;
 }
